@@ -75,7 +75,7 @@ class _HomeState extends State<Home> {
               TextField(
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
-                  labelText: "Digite seu peso (kg). Ex: 67.5",
+                  labelText: "Digite seu peso (kg). Ex: 68.5",
                 ),
                 style: TextStyle(
                   fontSize: 18,

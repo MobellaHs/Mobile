@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Calcular IMC"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.pink,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -75,7 +75,7 @@ class _HomeState extends State<Home> {
               TextField(
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
-                  labelText: "Digite seu peso (kg). Ex: 65.5",
+                  labelText: "Digite seu peso (kg). Ex: 67.5",
                 ),
                 style: TextStyle(
                   fontSize: 18,
@@ -85,7 +85,7 @@ class _HomeState extends State<Home> {
               TextField(
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
-                  labelText: "Digite sua altura (cm). Ex: 175",
+                  labelText: "Digite sua altura (cm). Ex: 180",
                 ),
                 style: TextStyle(
                   fontSize: 18,
@@ -95,7 +95,7 @@ class _HomeState extends State<Home> {
               Padding(
                 padding: EdgeInsets.only(top: 10),
                 child: RaisedButton(
-                  color: Colors.green,
+                  color: Colors.pink,
                   textColor: Colors.white,
                   padding: EdgeInsets.all(15),
                   child: Text(

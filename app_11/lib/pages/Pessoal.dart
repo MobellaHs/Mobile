@@ -40,7 +40,7 @@ class _PessoalState extends State<Pessoal> {
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: _currentPage,
           type: BottomNavigationBarType.fixed,
-          backgroundColor: Color.fromARGB(255, 226, 16, 159),
+          backgroundColor: Color.fromARGB(255, 226, 16, 170),
           //iconSize: 20,
           //selectedFontSize: 20,
           //unselectedFontSize: 10,

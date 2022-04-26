@@ -165,7 +165,7 @@ class _HomeState extends State<Home> {
       width: double.maxFinite,
       margin: EdgeInsets.only(top: 16),
       child: RaisedButton(
-        color: Color.fromARGB(255, 240, 61, 234),
+        color: Color.fromARGB(255, 240, 61, 171),
         child: Text('Converter',
             style: TextStyle(color: Colors.white, fontSize: 16)),
         onPressed: () {

@@ -39,7 +39,7 @@ class Info extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Dados Informados'),
-        backgroundColor: Color.fromARGB(255, 168, 43, 151),
+        backgroundColor: Color.fromARGB(255, 168, 43, 153),
       ),
       body: _body(),
     );

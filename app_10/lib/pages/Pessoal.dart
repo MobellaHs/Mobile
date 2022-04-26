@@ -43,7 +43,7 @@ class _PessoalState extends State<Pessoal> {
             child: ListView(
           children: [
             UserAccountsDrawerHeader(
-              accountName: Text('Isabella Putiini '),
+              accountName: Text('Isabella Oliveira Putiini '),
               accountEmail: Text('isabellaputtini@gmal.com'),
               currentAccountPicture: CircleAvatar(
                 //backgroundImage: AssetImage('assets/images/rock2.jpg'),
